@@ -1,29 +1,29 @@
-# zero-foundry – Protocol: Zero 社群外觀倉庫
+# zero-foundry – Community Skin Repository for Protocol: Zero
 
-本儲存庫為競技 FPS 遊戲 [Protocol: Zero](https://github.com/thumb2086/Protocol-Zero) 的官方社群外觀資料庫。
+This repository is the official community skin database for the competitive FPS game [Protocol: Zero](https://github.com/thumb2086/Protocol-Zero).
 
-想做外觀？歡迎！
-但官方限定槍皮永遠只會比你帥（因為老大會加粒子特效）
+Want to make a skin? Welcome!
+But the official exclusive skins will always be cooler than yours (because the devs add particle effects).
 
-## 這裡只能放
-- blueprints/weapons/ 裡的「外觀覆寫」JSON
-  - 必須有 "baseWeapon": "vandal" 這類欄位
-  - 可以改模型、零件尺寸、CSG 參數、皮膚、顏色、作者、槍名
-  - 絕對不能改任何平衡數值（會被 Actions 自動擋掉）
+## What to contribute
+- "Skin Override" JSON files located in `blueprints/weapons/`.
+  - Must contain a field like `"baseWeapon": "vandal"`.
+  - You can modify the model, part dimensions, CSG parameters, skin, color, author, and weapon name.
+  - You absolutely cannot change any balance-related values (this will be automatically blocked by GitHub Actions).
 
-## 範例檔案
-- thumb2086-Vandal-Default.json        ← 官方預設外觀
-- example-Phantom-Neon.json             ← 示範用
+## Example Files
+- `thumb2086-Vandal-Default.json`        ← Official default skin
+- `community-Phantom-White.json`          ← Example skin
 
-## 目前待辦（大家一起打勾）
-- [x] 建立資料夾結構
-- [x] 放官方預設外觀（Default 版）
-- [x] 放一個範例皮膚（Neon Dragon）
-- [ ] 更多社群創作（等你們來！）
+## Current To-Do (Let's check these off together)
+- [x] Create folder structure
+- [x] Add official default skins
+- [x] Add an example skin (White Phantom)
+- [ ] More community creations (waiting for you!)
 
-## 自動檢查
-GitHub Actions 會檢查：
-- 有沒有偷偷改傷害、射速等欄位 → 直接擋 PR
-- JSON 格式對不對
+## Automatic Checks
+GitHub Actions will check for:
+- Unauthorized changes to fields like damage, fire rate, etc. → PR will be blocked.
+- Correct JSON format.
 
-快來貢獻你的瘋狂外觀吧！
+Come and contribute your crazy skins!
