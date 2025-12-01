@@ -1,0 +1,27 @@
+{
+  "baseWeapon": "phantom",
+  "name": "White",
+  "author": "Jules",
+  "skin": {
+    "primary": "Solid",
+    "secondary": "Glossy"
+  },
+  "colors": {
+    "primary": [255, 255, 255],
+    "secondary": [240, 240, 240],
+    "accent": [200, 200, 200]
+  },
+  "csg": {
+    "scale": [1.0, 1.0, 1.0],
+    "parts": [
+      {
+        "name": "body",
+        "material": "plastic"
+      },
+      {
+        "name": "silencer",
+        "material": "metal"
+      }
+    ]
+  }
+}
